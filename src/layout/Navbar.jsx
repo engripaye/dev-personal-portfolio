@@ -14,10 +14,11 @@ export const Navbar = () => {
                     PM<span>.</span>
                 </a>
 
+                {/* Desktop Nav */}
                 <div>
                     <div>
                         {navLinks.map((link) =>(
-                            <a href>{link.href}>{link.label}</a>
+                            <a href={link.href}>{link.label}</a>
                         ))}
                     </div>
                 </div>
