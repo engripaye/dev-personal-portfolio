@@ -9,15 +9,15 @@ import { Contact } from '@/sections/Contact';
 function App() {
  return (
      <div className={"min-h-screen overflow-x-hidden"}>
-    <Navbar />
-   <main>
-       <Hero />
-       <About />
-       <Projects />
-       <Experience />
-       <Testimonials />
-       <Contact />
-   </main>
+        <Navbar />
+        <main>
+           <Hero />
+           <About />
+           <Projects />
+           <Experience />
+           <Testimonials />
+           <Contact />
+        </main>
 
 
  </div>
