@@ -23,3 +23,9 @@
   --color-surface: #1a2329;
 
 }
+
+@layer base {
+  html{
+    scroll-behavior: smooth;
+  }
+}
