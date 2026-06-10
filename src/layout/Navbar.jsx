@@ -17,8 +17,8 @@ export const Navbar = () => {
                 {/* Desktop Nav */}
                 <div>
                     <div>
-                        {navLinks.map((link) =>(
-                            <a href={link.href}>{link.label}</a>
+                        {navLinks.map((link, index) =>(
+                            <a href={link.href} key={index}>{link.label}</a>
                         ))}
                     </div>
                 </div>
