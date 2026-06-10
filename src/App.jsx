@@ -1,6 +1,6 @@
 import { Hero } from '@/sections/Hero';
 function App() {
- return <div>
+ return <div className={"min-h-screen overflow-x-hidden"}>
 
    <main>
    <Hero />
