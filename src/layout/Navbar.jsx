@@ -15,8 +15,8 @@ export const Navbar = () => {
 
                 <div>
                     <div>
-                        {navLinks.map((Link) =>(
-                            <a>{link.label}</a>
+                        {navLinks.map((link) =>(
+                            <a href>{link.href}>{link.label}</a>
                         ))}
                     </div>
                 </div>
