@@ -4,13 +4,14 @@ const navLinks = [
     {href: "#projects", label: "Projects"},
     {href: "#experience", label: "Experience"},
     {href: "#testimonials", label: "Testimonials"},
-]
+];
+
 export const Navbar = () => {
     return (
         <header>
             <nav>
                 <a>
-                    PM<span></span>
+                    PM<span>.</span>
                 </a>
 
                 <div>
