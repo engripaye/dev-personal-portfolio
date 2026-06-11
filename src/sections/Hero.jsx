@@ -35,7 +35,11 @@ export const Hero = () => {
             <div>
                 <div>
                     {/* Left Column - Text Content*/}
-
+                    <div>
+                        <div>
+                            <span className="w-2 h-2 bg-primary rounded-full"> Software Engineer * Python | Java Specialist</span>
+                        </div>
+                    </div>
                     {/* Right Column - Profile Image*/}
 
 
