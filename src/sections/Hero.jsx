@@ -77,8 +77,8 @@ export const Hero = () => {
                             <span>Follow: </span>
                             {[
                                 {icon: Github, href: ""},
-                                {icon: Github, href: ""},
-                                {icon: Github, href: ""},
+                                {icon: Linkedin, href: ""},
+                                {icon: Twitter, href: ""},
                             ]}
                         </div>
                     </div>
