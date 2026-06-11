@@ -42,3 +42,9 @@
     font-family: "Playfair Display", serif;
   }
 }
+
+@layer components {
+  .glass{
+    background-color: color-mix(in srgh, );
+  }
+}
