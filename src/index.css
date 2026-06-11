@@ -150,7 +150,7 @@
   }
 
   .group:hover .animated-border-path {
-    animation: animated-border;
+    animation: animated-border 1.5s linear infinite;
   }
 
   .animated-border:hover {
