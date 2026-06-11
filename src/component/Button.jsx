@@ -1,10 +1,11 @@
 
 
-export const Button = ({ classname, size, children }) => {
+export const Button = ({ className, size, children }) => {
 
-          <button>
-              <apn>{children}</apn>
-          </button>
+    return (
+        <button>
+            <span>{children}</span>
+        </button>
 
-
-}
+        );
+};
