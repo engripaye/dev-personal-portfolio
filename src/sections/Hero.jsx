@@ -65,8 +65,11 @@ export const Hero = () => {
                         {/* CTAs */}
                         <div>
                             <Button size="lg">
-                                Contact Me<ArrowRight />
+                                Contact Me<ArrowRight className="w-5 h-5"/>
                             </Button>
+                            <button>
+
+                            </button>
                         </div>
                     </div>
                     {/* Right Column - Profile Image*/}
