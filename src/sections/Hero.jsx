@@ -54,6 +54,12 @@ export const Hero = () => {
                                     precision.
                                 </span>
                             </h1>
+                            <p
+                                className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
+                                Hi, I'm Olabowale Babatunde Ipaye — a software engineer specializing in
+                                Java, Python, and React. I build scalable backend services and performant web
+                                applications that users love.
+                            </p>
                         </div>
                     </div>
                     {/* Right Column - Profile Image*/}
