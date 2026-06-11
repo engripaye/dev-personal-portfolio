@@ -30,8 +30,8 @@ export const Navbar = () => {
                 </div>
 
                 {/* Mobile Menu Button */}
-                <button className="md: hidden p-2 text-foreground">
-                    <Menu size={24}/>
+                <button className="md:hidden p-2 text-foreground">
+                    <Menu size={24} />
                 </button>
             </nav>
 
