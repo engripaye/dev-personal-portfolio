@@ -4,7 +4,7 @@ export const Hero = () => {
 
     {/* Bg */}
             <div>
-                <img src="/hero.jpg" />
+                <img src="/hero-bg.jpg" />
             </div>
 
         </section>
