@@ -75,6 +75,6 @@
   }
 
   .animate-fade-in {
-    animmation: fade-in 0.8s;
+    animation: fade-in 0.8s;
   }
 }
