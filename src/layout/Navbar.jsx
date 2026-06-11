@@ -23,8 +23,11 @@ export const Navbar = () => {
                         ))}
                     </div>
                 </div>
+                {/* CTA Button */}
+                <div>
+                    <Button></Button>
+                </div>
             </nav>
-
 
         </header>
     );
