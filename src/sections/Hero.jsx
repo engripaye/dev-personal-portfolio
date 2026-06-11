@@ -68,7 +68,7 @@ export const Hero = () => {
                             <Button size="lg">
                                 Contact Me<ArrowRight className="w-5 h-5"/>
                             </Button>
-                            <button>
+                            <button className={}>
 
                                 <span>
                                     <Download />
