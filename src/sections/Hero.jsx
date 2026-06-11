@@ -76,10 +76,10 @@ export const Hero = () => {
                         <div>
                             <span>Follow: </span>
                             {[
-                                {icon: Github, href: ""},
-                                {icon: Linkedin, href: ""},
+                                {icon: Github, href: "https://github.com/engripaye"},
+                                {icon: Linkedin, href: "www.linkedin.com/in/engripayebabatunde"},
                                 {icon: Twitter, href: ""},
-                            ]}
+                            ]}.map
                         </div>
                     </div>
                     {/* Right Column - Profile Image*/}
