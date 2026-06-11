@@ -44,6 +44,8 @@ export const Navbar = () => {
                            className="text-lg text-muted-foreground hover:text-foreground py-2">
                             {link.label}</a>
                     ))}
+
+                    <Button>Contact Me</Button>
                 </div>
 
             </div>
