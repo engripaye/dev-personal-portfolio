@@ -1,4 +1,5 @@
 import { Button } from "../component/Button";
+import { Menu } from "lucide-react";
 const navLinks = [
     {href: "#about", label: "About"},
     {href: "#projects", label: "Projects"},
