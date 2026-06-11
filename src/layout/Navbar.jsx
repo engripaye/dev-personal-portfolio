@@ -37,9 +37,11 @@ export const Navbar = () => {
 
             {/* Mobile Menu */}
             <div className="md:hidden glass-strong">
-                <div>
+                <div className="container mx-auto px-6 py-6 flex flex-col gap-4 ">
                     {navLinks.map((link, index) =>(
-                        <a href={link.href} key={index} className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">
+                        <a href={link.href}
+                           key={index}
+                           className="text-lg text-muted-foreground hover:text-foreground py-2">
                             {link.label}</a>
                     ))}
                 </div>
