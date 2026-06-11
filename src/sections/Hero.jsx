@@ -36,9 +36,13 @@ export const Hero = () => {
                 <div>
                     {/* Left Column - Text Content*/}
                     <div>
-                        <div>
-                            <span className="w-2 h-2 bg-primary rounded-full"> Software Engineer * Python | Java Specialist</span>
-                        </div>
+                        <div className="animate-fade-in">
+                            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
+                            <span className="w-2 h-2 bg-primary rounded-full"/>
+                                Software Engineer * Python | Java Specialist
+
+                            </span>
+                            </div>
                     </div>
                     {/* Right Column - Profile Image*/}
 
