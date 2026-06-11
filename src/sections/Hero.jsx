@@ -1,5 +1,6 @@
 import { Button } from '@/components/Button';
 import { ArrowRight, Download } from "lucide-react"
+import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 export const Hero = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -65,19 +66,24 @@ export const Hero = () => {
                         </div>
                         {/* CTAs */}
                         <div>
-                            <Button size="lg">
+                            <Button size="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
                                 Contact Me<ArrowRight className="w-5 h-5"/>
                             </Button>
-                            <button className={}>
+                            <AnimatedBorderButton />
+                        </div>
 
-                                <span>
-                                    <Download />
-                                    Download CV
-                                </span>
-                            </button>
+                        {/* Social Links */}
+                        <div>
+                            <span>Follow: </span>
+                            {[
+                                {icon: Github, href: ""},
+                                {icon: Github, href: ""},
+                                {icon: Github, href: ""},
+                            ]}
                         </div>
                     </div>
                     {/* Right Column - Profile Image*/}
+
 
 
                 </div>
