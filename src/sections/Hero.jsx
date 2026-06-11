@@ -15,7 +15,17 @@ export const Hero = () => {
             {/* Green Dots */}
             <div>
 
-                {}
+                {[...Array(30)].map((_, i) => (
+                    <div className="absolute w-1.5 h-1.5 rounded-full opacity-60"
+                    style={{
+                        backgroundColor: "#20b2a6",
+                        left: `${Math.random() * 100}%`,
+                        top: `${Math.random() * 100}%`,
+
+                        }
+                    }
+                    />
+                ))}
             </div>
         </section>
     )
