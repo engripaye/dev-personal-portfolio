@@ -23,11 +23,23 @@ export const Hero = () => {
                         top: `${Math.random() * 100}%`,
                         animation: `slow-drift ${15 + Math.random() * 20 
                         }s ease-in-out infinite`,
+                        animationDelay: `${Math.random() * 5}s`,
 
                         }
                     }
                     />
                 ))}
+            </div>
+
+            {/* content*/}
+            <div>
+                <div>
+                    {/* Left Column - Text Content*/}
+
+                    {/* Right Column - Profile Image*/}
+
+
+                </div>
             </div>
         </section>
     )
