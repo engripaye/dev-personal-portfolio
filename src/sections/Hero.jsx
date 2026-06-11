@@ -44,7 +44,7 @@ export const Hero = () => {
                             </div>
 
                         {/* Headline */}
-                        <div>
+                        <div className="space-y-4">
                             <h1>
                                 Crafting <span className="text-primary glow-text">digital</span>
                                 <br />
