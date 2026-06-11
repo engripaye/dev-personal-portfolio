@@ -74,6 +74,25 @@
 
   }
 
+  @keyframes slow-drift {
+
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(20px, -30px);
+    }
+    50% {
+      transform: translate(-15px, -20px);
+    }
+    75% {
+      transform: translate(30px, 10px);
+
+    }
+
+  }
+
   .animate-fade-in {
     animation: fade-in 0.8s ease-out both;
   }
