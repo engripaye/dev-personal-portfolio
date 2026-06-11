@@ -13,7 +13,7 @@ export const Button = ({ className= "", size ="default", children }) => {
     return (
 
         <button className={classes}>
-            <span className="relative flex itens-ceter jusify-center gap-2 ">
+            <span className="relative flex items-center justify-center gap-2 ">
 
                 {children}</span>
         </button>
