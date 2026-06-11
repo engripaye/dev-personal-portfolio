@@ -137,4 +137,10 @@
   .animation-delay-800 {
     animation-delay: 800ms;
   }
+
+  .animated-border:hover {
+    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+  }
 }
