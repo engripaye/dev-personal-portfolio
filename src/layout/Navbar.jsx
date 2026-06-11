@@ -24,10 +24,26 @@ export const Navbar = () => {
                     </div>
                 </div>
                 {/* CTA Button */}
-                <div>
+                <div className="hidden md:block">
                     <Button size="sm">Contact Me</Button>
                 </div>
+
+                {/* Mobile Menu Button */}
+                <button className="md: hidden p-2 text-foreground">
+                    <Menu size={24}/>
+                </button>
             </nav>
+
+            {/* Mobile Menu */}
+            <div className="md:hidden glass-strong">
+                <div>
+                    {navLinks.map((link, index) =>(
+                        <a href={link.href} key={index} className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface">
+                            {link.label}</a>
+                    ))}
+                </div>
+
+            </div>
 
         </header>
     );
