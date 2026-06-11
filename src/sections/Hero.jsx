@@ -1,3 +1,4 @@
+import { Button } from '@/components/Button';
 export const Hero = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -45,7 +46,7 @@ export const Hero = () => {
 
                         {/* Headline */}
                         <div className="space-y-4">
-                            <h1 className="text-5xl md:text-6xl lg:text-7xl font-build leading-tight animate-fade-in">
+                            <h1 className="text-5xl md:text-6xl lg:text-7xl font-build leading-tight animate-fade-in animation-delay-100">
                                 Crafting <span className="text-primary glow-text">digital</span>
                                 <br />
                                 experiences with
@@ -60,6 +61,12 @@ export const Hero = () => {
                                 Java, Python, and React. I build scalable backend services and performant web
                                 applications that users love.
                             </p>
+                        </div>
+                        {/* CTAs */}
+                        <div>
+                            <Button size="lg">
+                                Contact Me<ArrowRight />
+                            </Button>
                         </div>
                     </div>
                     {/* Right Column - Profile Image*/}
