@@ -54,6 +54,11 @@
     backdrop-filter: blur(16px);
     border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
   }
+
+  .glow-text{
+    text-shadow: 0  0 30px
+      color-mix(in srgb, var(--color-primary) 50%, transparent);
+  }
 }
 
 @layer utilities {
