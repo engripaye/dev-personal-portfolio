@@ -25,7 +25,7 @@ export const Navbar = () => {
                 </div>
                 {/* CTA Button */}
                 <div>
-                    <Button>Contact Me</Button>
+                    <Button className="relative flex items-center justify-center gap-2">Contact Me</Button>
                 </div>
             </nav>
 
