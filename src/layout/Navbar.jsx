@@ -1,4 +1,4 @@
-import { Button } from "../component/Button";
+import { Button } from "../components/Button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 const navLinks = [

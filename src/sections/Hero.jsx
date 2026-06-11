@@ -1,4 +1,5 @@
 import { Button } from '@/components/Button';
+import { ArrowRight, Download } from "lucide-react"
 export const Hero = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -69,6 +70,10 @@ export const Hero = () => {
                             </Button>
                             <button>
 
+                                <span>
+                                    <Download />
+                                    Download CV
+                                </span>
                             </button>
                         </div>
                     </div>
