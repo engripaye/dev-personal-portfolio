@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "../components/Button";
 @theme {
   --color-background: #0f1418;
   --color-foreground: #f0f2f5;

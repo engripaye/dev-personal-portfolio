@@ -1,4 +1,4 @@
-
+import { Button } from "../component.Button";
 const navLinks = [
     {href: "#about", label: "About"},
     {href: "#projects", label: "Projects"},
