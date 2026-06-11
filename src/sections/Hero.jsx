@@ -12,6 +12,11 @@ export const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background" />
             </div>
 
+            {/* Green Dots */}
+            <div>
+
+                {}
+            </div>
         </section>
     )
 }
