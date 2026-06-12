@@ -1,6 +1,6 @@
 import { Button } from "../components/Button";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 const navLinks = [
     {href: "#about", label: "About"},
     {href: "#projects", label: "Projects"},
@@ -22,7 +22,7 @@ export const Navbar = () => {
     }, []);
 
     return (
-        <header className={`fixed top-0 left-0 right-0 ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"} z-50`}>
+        <header className={`fixed top-0 left-0 right-0 transition-all duration-500 ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"} z-50`}>
             <nav className="container mx-auto px-6 flex items-center justify-between">
                 <a href="#" className="text-xl font-bold tracking-tight hover:text-primary">
                     ENGR. IPAYE<span className="text-primary">.</span>
