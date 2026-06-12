@@ -75,7 +75,7 @@ export const Hero = () => {
 
                         {/* Social Links */}
                         <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
-                            <span className="text-sm text-muted-foreground">Follow: </span>
+                            <span className="text-sm text-muted-foreground">Follow me: </span>
                             {[
                                 {icon: FaGithub, href: "https://github.com/engripaye"},
                                 {icon: FaLinkedin, href: "https://www.linkedin.com/in/engripayebabatunde"},
@@ -91,6 +91,14 @@ export const Hero = () => {
                         </div>
                     </div>
                     {/* Right Column - Profile Image*/}
+                    <div>
+                        {/* Profile Image */}
+                        <div>
+                            <div>
+                                <img src="/"/>
+                            </div>
+                        </div>
+                    </div>
 
 
 
