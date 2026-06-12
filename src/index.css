@@ -59,6 +59,12 @@
     text-shadow: 0  0 30px
       color-mix(in srgb, var(--color-primary) 50%, transparent);
   }
+
+  .glow-border {
+    box-shadow: 0 0 20px
+    color-mix(in srgb, var(--color-primary) 20%, transparent),
+    inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
+  }
 }
 
 @layer utilities {
