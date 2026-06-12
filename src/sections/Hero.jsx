@@ -7,6 +7,7 @@ const skills = [
     "Java",
     "SpringBoot",
     "Spring Security",
+    "OAuth2",
     "Core Java",
     "Python",
     "FastApi",
