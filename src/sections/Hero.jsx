@@ -1,5 +1,10 @@
 import { Button } from '@/components/Button';
-import { ArrowRight, Download, Twitter, Github, Linkedin } from "lucide-react"
+import {
+    ArrowRight,
+    Download,
+    Twitter,
+    Github,
+    Linkedin } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 export const Hero = () => {
     return (
@@ -77,7 +82,7 @@ export const Hero = () => {
                             <span>Follow: </span>
                             {[
                                 {icon: Github, href: "https://github.com/engripaye"},
-                                {icon: Linkedin, href: "www.linkedin.com/in/engripayebabatunde"},
+                                {icon: Linkedin, href: "https://www.linkedin.com/in/engripayebabatunde"},
                                 {icon: Twitter, href: ""},
                             ].map((social, idx) => (
                                 <a key={idx} href={social.href}>
