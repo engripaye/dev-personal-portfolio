@@ -3,7 +3,7 @@ import { Button } from '@/components/Button';
     ArrowRight,
     Download,
     Twitter,
-    Github, Linkedin
+    GitHub, Linkedin
      } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 export const Hero = () => {
