@@ -155,7 +155,11 @@ export const Hero = () => {
                     <p>Technologies I work with</p>
                     <div>
                         <div>
-
+                            {[...skills, ...skills].map((skill, idx) =>(
+                                <div>
+                                    <span>{skill}</span>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
