@@ -95,7 +95,7 @@ export const Hero = () => {
                         {/* Profile Image */}
                         <div>
                             <div>
-                                <img src="/"/>
+                                <img src="/profile2.png"/>
                             </div>
                         </div>
                     </div>
