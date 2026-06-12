@@ -107,7 +107,7 @@ export const Hero = () => {
                                 />
 
                                 {/* Floating badge */}
-                                <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate">
+                                <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                                     <div>
                                         <div/>
                                         <span>Available to work remotely</span>
