@@ -94,6 +94,12 @@ export const Hero = () => {
                     <div className="relative animate-fade-in animation-delay-300">
                         {/* Profile Image */}
                         <div className="relative max-w-md mx-auto">
+                            <div
+                                className="absolute inset-0
+                          rounded-3xl bg-gradient-to-br
+                          from-primary/30 via-transparent
+                          to-primary/10 blur-2xl animate-pulse-glow"
+                            />
                             <div className="relative glass rounded-3xl p-2 glow-border">
                                 <img src="/pro1.png"
                                      alt="Engr. Ipaye"
