@@ -151,12 +151,14 @@ export const Hero = () => {
                 </div>
 
                 {/* Skills Section */}
-                <div>
-                    <p>Technologies I work with</p>
-                    <div>
+                <div className="mt-20 animate-fade-in animation-delay-600">
+                    <p className="text-sm text-muted-foreground mb-6 text-center">
+                        Technologies I work with
+                    </p>
+                    <div className="relative overflow-hidden">
                         <div>
                             {[...skills, ...skills].map((skill, idx) =>(
-                                <div>
+                                <div key={idx}>
                                     <span>{skill}</span>
                                 </div>
                             ))}
