@@ -36,9 +36,11 @@ export const About = () => {
             <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
             </div>
 
-                <h2 className="text-4xl md:text-5xl font-bold">
+                <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
                     Building the future,
-                    <span> one solution at a time.</span>
+                    <span className="font-serif italic font-normal text-white">
+                        {" "}
+                        one solution at a time.</span>
                 </h2>
             </div>
             </div>
