@@ -2,6 +2,28 @@ import { Button } from '@/components/Button';
 import { ArrowRight, Download } from "lucide-react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+
+const skills = [
+    "Java",
+    "SpringBoot",
+    "Spring Security",
+    "Core Java",
+    "Python",
+    "FastApi",
+    "React",
+    "GraphQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Docker",
+    "AWS",
+    "Vercel",
+    "Mysql",
+    "Microservices",
+    "Prisma",
+    "Git",
+    "GitHub Actions",
+]
 export const Hero = () => {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
