@@ -84,7 +84,7 @@ export const Hero = () => {
                                 <a key={idx}
                                    href={social.href}
                                    className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
-                                    {<social.icon />}
+                                    {<social.icon className="w-5 h-5" />}
                                 </a>
 
                                 ))}
