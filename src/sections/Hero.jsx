@@ -66,8 +66,8 @@ export const Hero = () => {
                             </p>
                         </div>
                         {/* CTAs */}
-                        <div>
-                            <Button size="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+                        <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+                            <Button size="lg">
                                 Contact Me<ArrowRight className="w-5 h-5"/>
                             </Button>
                             <AnimatedBorderButton />
@@ -79,7 +79,7 @@ export const Hero = () => {
                             {[
                                 {icon: FaGithub, href: "https://github.com/engripaye"},
                                 {icon: FaLinkedin, href: "https://www.linkedin.com/in/engripayebabatunde"},
-                                {icon: FaTwitter, href: ""},
+                                {icon: FaTwitter, href: "https://x.com/engripaye1"},
                             ].map((social, idx) => (
                                 <a key={idx} href={social.href}>
                                     {<social.icon />}</a>
