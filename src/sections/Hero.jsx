@@ -91,9 +91,9 @@ export const Hero = () => {
                         </div>
                     </div>
                     {/* Right Column - Profile Image*/}
-                    <div>
+                    <div className="relative animate-fade-in animation-delay-300">
                         {/* Profile Image */}
-                        <div>
+                        <div className="relative max-w-md mx-auto">
                             <div>
                                 <img src="/pro1.png"
                                      alt="Engr. Ipaye"
