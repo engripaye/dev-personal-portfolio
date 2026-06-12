@@ -156,7 +156,7 @@ export const Hero = () => {
                         Technologies I work with
                     </p>
                     <div className="relative overflow-hidden">
-                        <div>
+                        <div className="flex">
                             {[...skills, ...skills].map((skill, idx) =>(
                                 <div key={idx}>
                                     <span>{skill}</span>
