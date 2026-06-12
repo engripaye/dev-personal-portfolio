@@ -26,5 +26,18 @@ const highlights = [
 ]
 
 export const About = () => {
-    return <section></section>
+    return (
+    <section className="py-32 relative overflow-hidden">
+        <div>
+            <div>
+                {/* Left Column */}
+            </div>
+            <span>About Me</span>
+            <div>
+
+            </div>
+        </div>
+
+    </section>
+    )
 }
