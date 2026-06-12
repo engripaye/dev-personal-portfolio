@@ -31,13 +31,16 @@ export const About = () => {
         <div className="container mx-auto px-6 relative z-10">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
                 {/* Left Column */}
-            <div>
-            <span>About Me</span>
+            <div className="space-y-8">
+                <div className="animate-fade-in">
+            <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">About Me</span>
             </div>
 
-                <h2> Building the future,
+                <h2 className="text-4xl md:text-5xl font-bold">
+                    Building the future,
                     <span> one solution at a time.</span>
                 </h2>
+            </div>
             </div>
         </div>
 
