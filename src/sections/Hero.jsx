@@ -95,7 +95,9 @@ export const Hero = () => {
                         {/* Profile Image */}
                         <div>
                             <div>
-                                <img src="/pro.png"/>
+                                <img src="/pro1.png"
+                                     alt="Engr. Ipaye"
+                                     className="w-full aspect-[4/5] object-cover rounded-2xl"/>
                             </div>
                         </div>
                     </div>
