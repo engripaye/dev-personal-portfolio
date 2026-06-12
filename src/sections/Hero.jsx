@@ -1,10 +1,10 @@
 import { Button } from '@/components/Button';
-import {
+ import {
     ArrowRight,
     Download,
     Twitter,
-    Github,
-    Linkedin } from "lucide-react";
+    Github, Linkedin
+     } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 export const Hero = () => {
     return (
