@@ -3,7 +3,7 @@ import { Button } from '@/components/Button';
     ArrowRight,
     Download,
     Twitter,
-    GitHub, Linkedin
+    Github, Linkedin
      } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 export const Hero = () => {
@@ -81,7 +81,7 @@ export const Hero = () => {
                         <div>
                             <span>Follow: </span>
                             {[
-                                {icon: GitHub, href: "https://github.com/engripaye"},
+                                {icon: Github, href: "https://github.com/engripaye"},
                                 {icon: Linkedin, href: "https://www.linkedin.com/in/engripayebabatunde"},
                                 {icon: Twitter, href: ""},
                             ].map((social, idx) => (
