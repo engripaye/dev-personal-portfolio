@@ -1,4 +1,4 @@
-import { Code2, Rocket } from "lucide-react";
+import { Code2, Rocke, Lightbulb, Users } from "lucide-react";
 const highlights = [
     {
         icon: Code2,
