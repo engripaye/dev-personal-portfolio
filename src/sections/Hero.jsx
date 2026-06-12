@@ -74,7 +74,7 @@ export const Hero = () => {
                         </div>
 
                         {/* Social Links */}
-                        <div>
+                        <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
                             <span>Follow: </span>
                             {[
                                 {icon: FaGithub, href: "https://github.com/engripaye"},
@@ -82,7 +82,8 @@ export const Hero = () => {
                                 {icon: FaTwitter, href: "https://x.com/engripaye1"},
                             ].map((social, idx) => (
                                 <a key={idx} href={social.href}>
-                                    {<social.icon />}</a>
+                                    {<social.icon />}
+                                </a>
 
                                 ))}
                         </div>
