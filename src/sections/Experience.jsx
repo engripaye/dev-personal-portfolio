@@ -130,8 +130,9 @@ export const Experience = () => {
                     className="text-muted-foreground
            animate-fade-in animation-delay-200"
                 >
-                    A timeline of my professional growth, from curious beginner to
-                    senior engineer leading teams and building products at scale.
+                    A timeline of my growth as a software engineer—from a curious beginner exploring web
+                    development to building AI-powered applications, scalable backend systems,
+                    cloud-native solutions, and innovative products that solve real-world challenges.
                 </p>
             </div>
         </div>
