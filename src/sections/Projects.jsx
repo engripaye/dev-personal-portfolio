@@ -146,9 +146,9 @@ export const Projects = () => {
                             </div>
 
                             {/* Content */}
-                            <div>
-                                <div>
-                                    <h3>{projects.title}</h3>
+                            <div className="p-6 space-y-4">
+                                <div className="flex items-start justify-between">
+                                    <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">{projects.title}</h3>
                                     <ArrowUpRight />
                                 </div>
                                 <p>{projects.description}</p>
