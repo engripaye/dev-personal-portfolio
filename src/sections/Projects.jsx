@@ -1,3 +1,6 @@
+import { ArrowUpRight } from "lucide-react";
+import { FaGithub }  from "react-icons/fa"
+
 const projects = [
     {
         title: "Boujuron Fraud Intelligence Platform",
@@ -130,6 +133,15 @@ export const Projects = () => {
                                     bg-gradient-to-t from-card via-card/50
                                     to-transparent opacity-60"
                                 />
+                                {/* Overlay Links */}
+                                <div>
+                                    <a>
+                                        <ArrowUpRight />
+                                    </a>
+                                    <a>
+                                        <Github />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     ))}
