@@ -55,7 +55,7 @@ export const Contact = () => {
                             <label htmlFor="name"
                                    className="block text-sm font-medium mb-2">
                                 Name</label>
-                            <input id="name"/>
+                            <input id="name" type="text" className="w-full px-4 py-3 bg-surface rounded-xl border-border focus:border-primary focus:ring-1 focus:ring-primary"/>
                         </div>
 
                         <div>
