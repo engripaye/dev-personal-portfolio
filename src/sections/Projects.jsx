@@ -7,7 +7,17 @@ const projects = [
         tags: ["Python", "FastAPI", "Machine Learning" , "React" , "Microservices", "PostgreSQL", "Docker"],
         link: "https://boujuron.netlify.app/login",
         github: "https://github.com/Phantore-Sentinel-Technology/boujuron-intelligence",
-    }
+    },
+
+    {
+        title: "OAuth2 Identity & Access Management",
+        description:
+            "A secure authentication and authorization platform implementing OAuth2, JWT, Role-Based Access Control (RBAC), and protected APIs for modern applications.",
+        image: "/projects/oauth2-iam.png",
+        tags: ["Java 21", "Spring Security", "OAuth2", "JWT", "MySQL"],
+        link: "#",
+        github: "#",
+    },
 ]
 
 export const Projects = () => {
