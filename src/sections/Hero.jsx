@@ -15,6 +15,7 @@ const skills = [
     "Python",
     "FastApi",
     "React",
+    "Typescript",
     "TailwindCSS",
     "GraphQL",
     "PostgreSQL",
