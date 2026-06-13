@@ -111,10 +111,15 @@ export const Projects = () => {
                 {/* Projects Grid */}
                 <div className="grid md:grid-cols-2 gap-8">
                     {projects.map((projects, idx) => (
-                        <div key={idx} className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1">
+                        <div
+                            key={idx}
+                            className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
+                            style={{ animationDelay: `${(idx + 1) * 100}ms` }}
+
+                        >
 
                             {/* Image */}
-                            <div>
+                            <div className="relative overflow-hidden aspect-video">
                                 <img
                                     src={projects.image}
                                     alt={projects.title}
