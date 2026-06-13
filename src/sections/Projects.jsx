@@ -59,6 +59,15 @@ const projects = [
         github: "https://github.com/engripaye/gitops-cicd-pipeline",
     },
 
+    {
+        title: "AI Career Transition Assistant",
+        description:
+            "An AI-powered platform that helps users transition into new careers through skill gap analysis, personalized learning paths, resume evaluation, and job recommendations.",
+        image: "/projects/project7.png",
+        tags: ["Java", "Spring Boot", "OpenAI", "PostgreSQL"],
+        link: "https://github.com/engripaye/new-transition",
+        github: "https://github.com/engripaye/new-transition",
+    },
 ]
 
 export const Projects = () => {
