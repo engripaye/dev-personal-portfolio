@@ -145,6 +145,8 @@ export const Experience = () => {
                     {experience.map((exp, idx) => (
                         <div key={idx}>
 
+                            {/* Timeline Dots */}
+                            <div></div>
                         </div>
                         )
                     )}
