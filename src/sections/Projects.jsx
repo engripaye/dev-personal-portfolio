@@ -144,6 +144,18 @@ export const Projects = () => {
                                     </a>
                                 </div>
                             </div>
+
+                            {/* Content */}
+                            <div>
+                                <div>
+                                    <h3>{projects.title}</h3>
+                                    <ArrowUpRight />
+                                </div>
+                                <p>{projects.description}</p>
+                                <div>
+                                    {projects.tags.map((tag, tagIdx))}
+                                </div>
+                            </div>
                         </div>
                     ))}
                 </div>
