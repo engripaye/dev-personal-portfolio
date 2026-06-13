@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
-import { FaGithub }  from "react-icons/fa"
+import { FaGithub }  from "react-icons/fa";
+import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
     {
@@ -168,6 +169,13 @@ export const Projects = () => {
                             </div>
                         </div>
                     ))}
+                </div>
+
+                { /* View All CTA */}
+                <div>
+                <AnimatedBorderButton>
+
+                </AnimatedBorderButton>
                 </div>
             </div>
         </section>
