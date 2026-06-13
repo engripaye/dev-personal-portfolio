@@ -52,12 +52,17 @@ export const Contact = () => {
                 <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
                     <form className="space-y-6">
                         <div>
-                            <label htmlFor="name" className="block text-sm">Name</label>
+                            <label htmlFor="name"
+                                   className="block text-sm font-medium mb-2">
+                                Name</label>
                             <input id="name"/>
                         </div>
 
                         <div>
-                            <label>Email</label>
+                            <label
+                                htmlFor="name"
+                                className="block text-sm font-medium mb-2"
+                            >Email</label>
                             <input />
                         </div>
 
