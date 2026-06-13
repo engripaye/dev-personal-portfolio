@@ -6,7 +6,7 @@ const testimonials = [
         quote:
             "Olabowale consistently demonstrates a strong passion for software engineering. His ability to learn quickly and build practical solutions using Java and Python makes him a valuable developer with great potential.",
         author: "Project Collaborator",
-        role: "Software Engineer",
+        role: "CTO, Tech Innovators Inc.",
         avatar:
             "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
     },
@@ -22,7 +22,7 @@ const testimonials = [
         quote:
             "Olabowale is always eager to improve and take on complex technical challenges. His projects demonstrate strong problem-solving skills, attention to detail, and a commitment to continuous learning.",
         author: "Engineering Peer",
-        role: "Software Developer",
+        role: "Engineering Lead, StartUp Labs",
         avatar:
             "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
     },
@@ -30,7 +30,7 @@ const testimonials = [
         quote:
             "From AI-powered applications to secure backend systems, Olabowale consistently builds projects that address real-world problems while applying industry best practices in software development.",
         author: "Open Source Contributor",
-        role: "Backend Engineer",
+        role: "CEO, Innovation Hub",
         avatar:
             "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
     },
