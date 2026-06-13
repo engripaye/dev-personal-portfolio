@@ -71,6 +71,10 @@ export const Contact = () => {
                                 type="text"
                                 required
                                 placeholder="your name..."
+                                value={formData.name}
+                                onChange={(e) =>
+                                    setFormData({ ...formData, name: e.target.value })
+                                }
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
                         </div>
 
