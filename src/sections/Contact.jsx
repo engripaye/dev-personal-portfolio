@@ -22,6 +22,12 @@ const contactInfo = [
 ];
 
 export const Contact = () => {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+        }
+    )
     return (
 
     <section id="contact" className="py-32 relative overflow-hidden">
