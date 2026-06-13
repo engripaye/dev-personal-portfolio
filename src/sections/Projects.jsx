@@ -15,6 +15,7 @@ const projects = [
             "A secure authentication and authorization platform implementing OAuth2, JWT, Role-Based Access Control (RBAC), and protected APIs for modern applications.",
         image: "/projects/project2.png",
         tags: ["Java 21", "Spring Security", "OAuth2", "JWT", "MySQL", "Docker", "Microservices"],
+        link: "https://github.com/engripaye/cross-platform-identity-access-management-system",
         github: "https://github.com/engripaye/cross-platform-identity-access-management-system",
     },
 
