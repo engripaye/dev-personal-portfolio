@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPin, Send } from "lucide-react";
-import
+import { Button } from "@/components/Button";
 const contactInfo = [
     {
         icon: Mail,
