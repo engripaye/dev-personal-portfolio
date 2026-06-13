@@ -48,6 +48,16 @@ const projects = [
         link: "https://github.com/engripaye/secure-oauth2-third-party-integration",
         github: "https://github.com/engripaye/secure-oauth2-third-party-integration",
     },
+
+    {
+        title: "DevOps CI/CD Automation Pipeline",
+        description:
+            "An automated software delivery pipeline integrating GitHub, Jenkins, Docker, Kubernetes, monitoring, and Infrastructure as Code for continuous integration and deployment.",
+        image: "/projects/devops-pipeline.png",
+        tags: ["Jenkins", "Docker", "Kubernetes", "Terraform", "GitHub Actions"],
+        link: "#",
+        github: "#",
+    },
 ]
 
 export const Projects = () => {
