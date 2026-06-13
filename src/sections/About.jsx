@@ -23,7 +23,7 @@ const highlights = [
         description:
             "Staying ahead with the latest technologies and best practices.",
     },
-]
+];
 
 export const About = () => {
     return (
@@ -83,14 +83,15 @@ export const About = () => {
 
                 {/* Right Column - Highlights */}
                 <div className="grid sm:grid-cols-2 gap-6">
-                    {highlights.map((item, idx) => {
+                    {highlights.map((item, idx) => (
                         <div>
                             <div>
                                 <item.icon />
                             </div>
                             <h3>{item.title}</h3>
+                            <p>{item.description}</p>
                         </div>
-                    })}
+                    ))}
 
                 </div>
             </div>
