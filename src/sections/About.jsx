@@ -82,12 +82,13 @@ export const About = () => {
             </div>
 
                 {/* Right Column - Highlights */}
-                <div className="grid sm:grid-cols-3 gap 6">
+                <div className="grid sm:grid-cols-2 gap-6">
                     {highlights.map((item, idx) => {
                         <div>
                             <div>
-                                <Item.icon />
+                                <item.icon />
                             </div>
+                            <h3>{item.title}</h3>
                         </div>
                     })}
 
