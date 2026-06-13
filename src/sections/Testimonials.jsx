@@ -87,7 +87,8 @@ export const Testimonials = () => {
                     <blockquote className="text-xl md:text-2xl font-medium leading-relaxed mb-8 pt-4">
                         "{testimonials[0].quote}"
                     </blockquote>
-                    <div><img src={testimonials[0].avatar}
+                    <div className="flex items-center gap-4">
+                        <img src={testimonials[0].avatar}
                               alt={testimonials[0].author}
                     />
                         <div>
