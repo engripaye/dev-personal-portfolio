@@ -59,7 +59,7 @@ export const Contact = () => {
                                 id="name"
                                 type="text"
                                 required
-                                placeholder="Your name..."
+                                placeholder="your name..."
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
                         </div>
 
@@ -73,7 +73,7 @@ export const Contact = () => {
                             </label>
                             <input
                                 required
-                                placeholder="Your email..."
+                                placeholder="your@email.com"
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
                         </div>
 
@@ -84,8 +84,9 @@ export const Contact = () => {
                             >Message
                             </label>
                             <textarea
+                                rows={5}
                                 required
-                                placeholder="Your message..."
+                                placeholder="your message..."
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
                         </div>
                     </form>
