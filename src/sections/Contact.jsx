@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/Button";
+import { useState } from "react";
 const contactInfo = [
     {
         icon: Mail,
@@ -105,6 +106,10 @@ export const Contact = () => {
                             <textarea
                                 rows={5}
                                 required
+                                value={formData.message}
+                                onChange={(e) =>
+                                    setFormData({ ...formData, message: e.target.value })
+                                }
                                 placeholder="your message..."
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
                         </div>
