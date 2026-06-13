@@ -138,7 +138,7 @@ export const Projects = () => {
                                     <a href={projects.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                         <ArrowUpRight className="w-5 h-5" />
                                     </a>
-                                    <a href={project.github}
+                                    <a href={projects.github}
                                        className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                         <FaGithub className="w-5 h-5" />
                                     </a>
