@@ -153,7 +153,9 @@ export const Projects = () => {
                                 </div>
                                 <p>{projects.description}</p>
                                 <div>
-                                    {projects.tags.map((tag, tagIdx))}
+                                    {projects.tags.map((tag, tagIdx) => (
+                                        <span>{tag}</span>
+                                    ))}
                                 </div>
                             </div>
                         </div>
