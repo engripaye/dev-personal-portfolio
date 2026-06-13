@@ -92,7 +92,7 @@ export const About = () => {
                                 <item.icon className="w-6 h-6 text-primary"/>
                             </div>
                             <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                            <p>{item.description}</p>
+                            <p className="text-sm text-muted-foreground">{item.description}</p>
                         </div>
                     ))}
 
