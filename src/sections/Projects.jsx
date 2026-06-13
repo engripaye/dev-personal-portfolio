@@ -93,7 +93,8 @@ export const Projects = () => {
 
             {/* Section Header */}
             <div className="text-center mx-auto max-w-3xl mb-16">
-                <span className="text-secondary-foregroud text-sm font-medium tracking-wider uppercase animate-fade-in">Featured Work</span>
+                <span className="text-secondary-foregroud text-sm font-medium tracking-wider uppercase animate-fade-in">
+                    Featured Work</span>
                 <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-delay-100 text-foreground">
                     Projects that
                     <span> make an impact. </span>
