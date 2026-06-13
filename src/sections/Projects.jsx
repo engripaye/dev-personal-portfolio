@@ -123,7 +123,7 @@ export const Projects = () => {
                                 <img
                                     src={projects.image}
                                     alt={projects.title}
-                                    className="w-full h-full object-cover transition duration-700 "
+                                    className="w-full h-full object-cover transition-transition duration-700 group-hover:scale-110"
                                 />
                             </div>
                         </div>
