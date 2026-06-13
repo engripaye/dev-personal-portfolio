@@ -28,6 +28,10 @@ export const Contact = () => {
         message: "",
         }
     )
+
+    const handleSubmit = async (e) =>{
+        e,prevwntDefault();
+    }
     return (
 
     <section id="contact" className="py-32 relative overflow-hidden">
