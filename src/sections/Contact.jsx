@@ -92,6 +92,7 @@ export const Contact = () => {
                         </div>
                         <Button>
                             Send Message
+                            <Send />
 
                         </Button>
                     </form>
