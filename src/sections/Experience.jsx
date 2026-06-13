@@ -148,7 +148,9 @@ export const Experience = () => {
                         >
 
                             {/* Timeline Dots */}
-                            <div className="absolute"></div>
+                            <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10" >
+                                {exp.current && (<span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75" />)}
+                            </div>
 
                             {/* Content */}
                             <div className={`pl-8 md:pl-0 ${idx % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
