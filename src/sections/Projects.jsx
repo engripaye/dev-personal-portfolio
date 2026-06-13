@@ -101,12 +101,25 @@ export const Projects = () => {
                         {" "}
                         make an impact. </span>
                 </h2>
-                <p>
+                <p className="text-muted-foreground animate-fade-in animation-delay-200">
                     A showcase of the software solutions I've built across backend engineering,
                     AI, cloud infrastructure, security, and automation—demonstrating my passion
                     for creating scalable technology that solves real-world problems.
                 </p>
             </div>
+
+                {/* Projects Grid */}
+                <div className="grid md:grid-cols-2 gap-8">
+                    {projects.map((projects, idx) => (
+                        <div>
+
+                            {/* Image */}
+                            <div>
+                                <img src={projects.image} alt={projects.title} />
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </section>
 
