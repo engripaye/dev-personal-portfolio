@@ -135,6 +135,11 @@ export const Experience = () => {
                     cloud-native solutions, and innovative products that solve real-world challenges.
                 </p>
             </div>
+
+            {/* Timeline */}
+            <div className="relative">
+                <div className="timeline-glow"/>
+            </div>
         </div>
 
 
