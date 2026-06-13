@@ -90,6 +90,7 @@ export const Testimonials = () => {
                     <div className="flex items-center gap-4">
                         <img src={testimonials[0].avatar}
                               alt={testimonials[0].author}
+                             className="w-14 h-14 rounded-full object-cover ring-2 ring-primary/20"
                     />
                         <div>
                             <div>{testimonials[0].author}</div>
