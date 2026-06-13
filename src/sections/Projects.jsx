@@ -92,9 +92,9 @@ export const Projects = () => {
             <div className="container mx-auto px-6 relative z-10"></div>
 
             {/* Section Header */}
-            <div>
-                <span>Featured Work</span>
-                <h2>
+            <div className="text-center mx-auto max-w-3xl mb-16">
+                <span className="text-secondary-foregroud text-sm font-medium tracking-wider uppercase animate-fade-in">Featured Work</span>
+                <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-delay-100 text-foreground">
                     Projects that
                     <span> make an impact. </span>
                 </h2>
