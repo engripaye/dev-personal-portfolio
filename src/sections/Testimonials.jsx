@@ -93,8 +93,8 @@ export const Testimonials = () => {
                              className="w-14 h-14 rounded-full object-cover ring-2 ring-primary/20"
                     />
                         <div className="flex items-center gap-4">
-                            <div>{testimonials[0].author}</div>
-                            <div>{testimonials[0].role}</div>
+                            <div className="font-semibold">{testimonials[0].author}</div>
+                            <div className="text-sm text">{testimonials[0].role}</div>
                         </div>
                     </div>
                 </div>
