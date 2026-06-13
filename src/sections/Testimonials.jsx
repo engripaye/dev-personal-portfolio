@@ -77,10 +77,10 @@ export const Testimonials = () => {
             </div>
 
             {/* Testimonial Carousel */}
-            <div>
-                <div>
+            <div className="max-w-4xl mx-auto">
+                <div className="relative">
                     {/* Main Testimonial */}
-                    <div>
+                    <div className="glass p-8 rounded-3xl md:p-12 glow-border animate-fade-in animation-delay-200">
                         <div><Quote /></div>
                     </div>
                     <blockquote>
