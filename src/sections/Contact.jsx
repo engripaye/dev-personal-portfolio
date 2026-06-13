@@ -74,7 +74,7 @@ export const Contact = () => {
                                 className="block text-sm font-medium mb-2"
                             >Message
                             </label>
-                            <input className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
+                            <textarea className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
                         </div>
                     </form>
                 </div>
