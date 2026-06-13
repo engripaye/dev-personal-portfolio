@@ -1,3 +1,4 @@
+import { Quote } from "lucide-react";
 
 const testimonials = [
     {
@@ -75,6 +76,20 @@ export const Testimonials = () => {
                 </h2>
             </div>
 
+            {/* Testimonial Carousel */}
+            <div>
+                <div>
+                    {/* Main Testimonial */}
+                    <div>
+                        <div><Quote /></div>
+                    </div>
+                    <blockquote>
+                        "{testimonials[0].quote}"
+                    </blockquote>
+                    <div><img src={testimonials[0].avatar}/>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 }
