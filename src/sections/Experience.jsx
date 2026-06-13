@@ -147,6 +147,13 @@ export const Experience = () => {
 
                             {/* Timeline Dots */}
                             <div></div>
+
+                            {/* Content */}
+                            <div>
+                                <div>
+                                    <span>{exp.period}</span>
+                                </div>
+                            </div>
                         </div>
                         )
                     )}
