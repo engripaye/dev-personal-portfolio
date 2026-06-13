@@ -111,7 +111,7 @@ export const Projects = () => {
                 {/* Projects Grid */}
                 <div className="grid md:grid-cols-2 gap-8">
                     {projects.map((projects, idx) => (
-                        <div key={idx} className="group glass rounded-2xl overflow-hidden animate-fade-in">
+                        <div key={idx} className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1">
 
                             {/* Image */}
                             <div>
