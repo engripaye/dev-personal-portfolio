@@ -48,7 +48,26 @@ export const Contact = () => {
                 </p>
             </div>
 
-            <></>
+            <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
+                <div>
+                    <form>
+                        <div>
+                            <label>Name</label>
+                            <input />
+                        </div>
+
+                        <div>
+                            <label>Email</label>
+                            <input />
+                        </div>
+
+                        <div>
+                            <label>Message</label>
+                            <input />
+                        </div>
+                    </form>
+                </div>
+            </div>
 
         </div>
     </section>
