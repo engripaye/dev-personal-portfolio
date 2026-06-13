@@ -173,10 +173,17 @@ export const Projects = () => {
 
                 { /* View All CTA */}
                 <div className="text-center mt-12 animate-fade-in anmation-delay-500">
-                <AnimatedBorderButton>
+                    <a
+                        href="https://github.com/Engripaye"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                    <AnimatedBorderButton>
+
                     View All Projects
                     <ArrowUpRight className="w-5 h-5" />
                 </AnimatedBorderButton>
+                    </a>
                 </div>
             </div>
         </section>
