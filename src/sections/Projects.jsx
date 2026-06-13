@@ -53,11 +53,12 @@ const projects = [
         title: "DevOps CI/CD Automation Pipeline",
         description:
             "An automated software delivery pipeline integrating GitHub, Jenkins, Docker, Kubernetes, monitoring, and Infrastructure as Code for continuous integration and deployment.",
-        image: "/projects/devops-pipeline.png",
+        image: "/projects/project6.png",
         tags: ["Jenkins", "Docker", "Kubernetes", "Terraform", "GitHub Actions"],
-        link: "#",
-        github: "#",
+        link: "https://github.com/engripaye/gitops-cicd-pipeline",
+        github: "https://github.com/engripaye/gitops-cicd-pipeline",
     },
+
 ]
 
 export const Projects = () => {
