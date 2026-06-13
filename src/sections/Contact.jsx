@@ -61,18 +61,20 @@ export const Contact = () => {
                         <div>
                             <label
                                 htmlFor="email"
+                                type="text"
                                 className="block text-sm font-medium mb-2"
                             >Email
                             </label>
-                            <input id="name" type="text" className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
+                            <input  className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
                         </div>
 
                         <div>
                             <label
                                 htmlFor="message"
                                 className="block text-sm font-medium mb-2"
-                            >Message</label>
-                            <input />
+                            >Message
+                            </label>
+                            <input className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"/>
                         </div>
                     </form>
                 </div>
