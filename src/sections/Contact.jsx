@@ -1,4 +1,5 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import
 const contactInfo = [
     {
         icon: Mail,
@@ -89,6 +90,10 @@ export const Contact = () => {
                                 placeholder="your message..."
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
                         </div>
+                        <Button>
+                            Send Message
+
+                        </Button>
                     </form>
                 </div>
             </div>
