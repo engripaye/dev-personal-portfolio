@@ -1,4 +1,4 @@
-import { mail, Phone, Mapin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 const contactInfo = [
     {
         icon: Mail,
