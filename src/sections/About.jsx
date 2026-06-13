@@ -53,7 +53,7 @@ export const About = () => {
                         I enjoy designing reliable systems that solve real-world problems and deliver meaningful value to users.
                     </p>
                     <p>
-                        I specialize in Java (Spring Boot), Python (FastAPI), RESTful API development, microservices architecture,
+                        I specialize in Java (Spring Boot), Python (FastAPI), RESTful API development, frontend using react, microservices architecture,
                         SQL and NoSQL databases, containerization with Docker, CI/CD automation, and cloud-native development practices.
                         I am constantly expanding my expertise in Kubernetes, Infrastructure as Code, Artificial Intelligence,
                         and modern software engineering principles.
