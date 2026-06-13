@@ -94,7 +94,7 @@ export const Testimonials = () => {
                     />
                         <div className="flex items-center gap-4">
                             <div className="font-semibold">{testimonials[0].author}</div>
-                            <div className="text-sm text">{testimonials[0].role}</div>
+                            <div className="text-sm text-muted-foreground">{testimonials[0].role}</div>
                         </div>
                     </div>
                 </div>
