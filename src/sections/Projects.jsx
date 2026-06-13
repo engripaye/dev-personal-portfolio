@@ -89,7 +89,7 @@ export const Projects = () => {
             {/* Bg glows */}
             <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
             <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
-            <div className="container mx-auto px-6 relative z-10"></div>
+            <div className="container mx-auto px-6 relative z-10">
 
             {/* Section Header */}
             <div className="text-center mx-auto max-w-3xl mb-16">
@@ -98,6 +98,7 @@ export const Projects = () => {
                     Projects that
                     <span> make an impact. </span>
                 </h2>
+            </div>
             </div>
         </section>
 
