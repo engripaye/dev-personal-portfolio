@@ -101,6 +101,11 @@ export const Projects = () => {
                         {" "}
                         make an impact. </span>
                 </h2>
+                <p>
+                    A showcase of the software solutions I've built across backend engineering,
+                    AI, cloud infrastructure, security, and automation—demonstrating my passion
+                    for creating scalable technology that solves real-world problems.
+                </p>
             </div>
             </div>
         </section>
