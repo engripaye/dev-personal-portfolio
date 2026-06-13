@@ -152,6 +152,14 @@ export const Experience = () => {
                             <div>
                                 <div>
                                     <span>{exp.period}</span>
+                                    <h3>{exp.role}</h3>
+                                    <p>{exp.company}</p>
+                                    <p>{exp.description}</p>
+                                    <div>
+                                        {exp.technologies.map((tech, techIdx) =>(
+                                            <span>{tech}</span>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>
