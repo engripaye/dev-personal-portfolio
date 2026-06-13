@@ -23,12 +23,20 @@ const projects = [
         description:
             "A movie discovery and recommendation platform that helps users find films based on genres, ratings, popularity, and personalized preferences. Features movie search, trending movies, detailed movie information, and recommendation capabilities powered by external movie APIs.",
         image: "/projects/project3.png",
-        tags: ["Typescript", "React", "TMDB API", "PostgreSQL"],
+        tags: ["Javascript", "React", "TMDB API", "PostgreSQL"],
         link: "https://ipayemovie.netlify.app/",
         github: "https://github.com/engripaye/react-movie-api",
-    }
+    },
 
-
+    {
+        title: "Secure Microservices Platform",
+        description:
+            "A cloud-native microservices architecture featuring API Gateway, service discovery, centralized authentication, Docker containerization, and Kubernetes deployment.",
+        image: "/projects/project4.png",
+        tags: ["Spring Boot", "Docker", "Kubernetes", "JWT", "PostgreSQL"],
+        link: "#",
+        github: "#",
+    },
 ]
 
 export const Projects = () => {
