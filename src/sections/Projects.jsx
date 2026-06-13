@@ -35,6 +35,16 @@ const projects = [
             "A cloud-native microservices architecture featuring API Gateway, service discovery, centralized authentication, Docker containerization, and Kubernetes deployment.",
         image: "/projects/project4.png",
         tags: ["Spring Boot", "Docker", "Kubernetes", "JWT", "PostgreSQL"],
+        link: "https://github.com/engripaye/microservice-secure-api",
+        github: "https://github.com/engripaye/microservice-secure-api",
+    },
+
+    {
+        title: "Consent & Third-Party Integration System",
+        description:
+            "A secure consent management platform allowing users to authorize third-party access to services such as GitHub and Google Drive using OAuth2 Authorization Code Flow.",
+        image: "/projects/consent-platform.png",
+        tags: ["Java", "Spring Boot", "OAuth2", "REST API"],
         link: "#",
         github: "#",
     },
