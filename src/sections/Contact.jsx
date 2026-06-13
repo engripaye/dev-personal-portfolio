@@ -48,12 +48,12 @@ export const Contact = () => {
                 </p>
             </div>
 
-            <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
-                <div>
-                    <form>
+            <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
+                    <form className="space-y-6">
                         <div>
-                            <label>Name</label>
-                            <input />
+                            <label htmlFor="name" className="block text-sm">Name</label>
+                            <input id="name"/>
                         </div>
 
                         <div>
