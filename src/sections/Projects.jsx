@@ -25,8 +25,10 @@ const projects = [
         image: "/projects/project3.png",
         tags: ["Typescript", "React", "TMDB API", "PostgreSQL"],
         link: "https://ipayemovie.netlify.app/",
-        github: "#",
+        github: "https://github.com/engripaye/react-movie-api",
     }
+
+
 ]
 
 export const Projects = () => {
