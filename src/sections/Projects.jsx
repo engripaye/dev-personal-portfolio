@@ -68,6 +68,18 @@ const projects = [
         link: "https://github.com/engripaye/new-transition",
         github: "https://github.com/engripaye/new-transition",
     },
+
+    {
+        title: "Chat-Based Online Ordering System",
+        description:
+            "A real-time ordering platform that enables customers to place orders through chat interactions. Features WebSocket communication, order management, payment integration, and AI-assisted customer support.",
+        image: "/projects/project8.png",
+        tags: ["Java 21", "Spring Boot", "WebSocket", "Redis", "MySQL", "Stomp", "Authentication System", "Order Management"],
+        link: "https://github.com/engripaye/chat-based-online-ordering-system",
+        github: "https://github.com/engripaye/chat-based-online-ordering-system",
+    },
+
+
 ]
 
 export const Projects = () => {
