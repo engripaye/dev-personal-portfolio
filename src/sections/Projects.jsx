@@ -43,10 +43,10 @@ const projects = [
         title: "Consent & Third-Party Integration System",
         description:
             "A secure consent management platform allowing users to authorize third-party access to services such as GitHub and Google Drive using OAuth2 Authorization Code Flow.",
-        image: "/projects/consent-platform.png",
+        image: "/projects/project5.png",
         tags: ["Java", "Spring Boot", "OAuth2", "REST API"],
-        link: "#",
-        github: "#",
+        link: "https://github.com/engripaye/secure-oauth2-third-party-integration",
+        github: "https://github.com/engripaye/secure-oauth2-third-party-integration",
     },
 ]
 
