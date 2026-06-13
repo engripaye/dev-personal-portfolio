@@ -81,7 +81,8 @@ export const Testimonials = () => {
                 <div className="relative">
                     {/* Main Testimonial */}
                     <div className="glass p-8 rounded-3xl md:p-12 glow-border animate-fade-in animation-delay-200">
-                        <div><Quote /></div>
+                        <div className="absolute -top-4 left-8 w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+                            <Quote /></div>
                     </div>
                     <blockquote>
                         "{testimonials[0].quote}"
