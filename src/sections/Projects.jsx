@@ -174,7 +174,7 @@ export const Projects = () => {
                 { /* View All CTA */}
                 <div className="text-center mt-12 animate-fade-in anmation-delay-500">
                     <a
-                        href="https://github.com/Engripaye"
+                        href="https://github.com/engripaye?tab=repositories"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
