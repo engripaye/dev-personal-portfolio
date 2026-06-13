@@ -90,7 +90,7 @@ export const Contact = () => {
                                 placeholder="your message..."
                                 className="w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"/>
                         </div>
-                        <Button>
+                        <Button className="w-full">
                             Send Message
                             <Send />
 
