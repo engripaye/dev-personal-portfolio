@@ -39,10 +39,14 @@ export const Contact = () => {
     const handleSubmit = async (e) =>{
         e,prevwntDefault();
 
+        setIsLoading(true);
+        setSubmitStatus({ type: null, message: "" });
         try{
 
         }catch (err) {
 
+        }finally {
+            setIsLoading(false);
         }
     }
     return (
