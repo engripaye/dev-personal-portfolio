@@ -28,7 +28,13 @@ export const Contact = () => {
         email: "",
         message: "",
         }
-    )
+    );
+
+    const [isLoading, setIsLoading] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState({
+        type: null, // 'success' or 'error'
+        message: "",
+    });
 
     const handleSubmit = async (e) =>{
         e,prevwntDefault();
