@@ -56,8 +56,14 @@ export const Contact = () => {
                 name: formData.name,
                 email: formData.email,
                 message: formData.message,
-            }, publicKey)
-        }catch (err) {
+            }, publicKey
+            )
+
+            setSubmitStatus({
+                type: "success",
+                message: "Message sent successfully! I'll get back to you soon.",
+            });
+        } catch (err) {
 
         }finally {
             setIsLoading(false);
