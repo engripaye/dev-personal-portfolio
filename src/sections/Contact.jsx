@@ -1,7 +1,7 @@
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/Button";
 import { useState } from "react";
-import { emailjs } from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 const contactInfo = [
     {
         icon: Mail,
