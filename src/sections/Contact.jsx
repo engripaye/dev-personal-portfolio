@@ -1,6 +1,7 @@
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/Button";
 import { useState } from "react";
+import { emailjs } from "@emailjs/browser";
 const contactInfo = [
     {
         icon: Mail,
@@ -51,6 +52,11 @@ export const Contact = () => {
                     "EmailJS configuration is missing. Please check your environment variables."
                 );
             }
+            await emailjs.send(serviceId, templateId, {
+                name: ,
+                email: ,
+                message: formData.message,
+            }, publicKey)
         }catch (err) {
 
         }finally {
