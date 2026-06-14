@@ -53,8 +53,8 @@ export const Contact = () => {
                 );
             }
             await emailjs.send(serviceId, templateId, {
-                name: ,
-                email: ,
+                name: formData.name,
+                email: formData.email,
                 message: formData.message,
             }, publicKey)
         }catch (err) {
